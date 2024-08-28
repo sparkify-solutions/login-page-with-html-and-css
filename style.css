@@ -1,0 +1,110 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background: #1cb824;
+    overflow: hidden;
+}
+
+.container
+{
+    max-width: 360px;
+    margin: 170px auto;
+    padding: 0 20px;
+}
+
+.wrapper
+{
+    width: 100%;
+    background: white;
+    border-radius: 5px;
+}
+
+.wrapper .title
+{
+    line-height: 70px;
+    color: white;
+    background: #087e1b;
+    text-align: center;
+    border-radius: 5px 5px 0 0 ;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.wrapper form
+{
+    padding: 30px 20px 25px 20px;
+
+}
+
+.wrapper form .row
+{
+    height: 40px;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.wrapper form .row i
+{
+    position: absolute;
+    width: 45px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 500;
+    background: #087e1b;
+    border-radius: 5px 0px 0px 5px ;
+}
+
+.wrapper form .row input
+{
+    height: 100%;
+    width: 100%;
+    padding-left: 60px;
+    font-size: 18px;
+    font-weight: 500;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #cec7c7;
+}
+
+.wrapper form .pass
+{
+    margin: -9px 0 15px 0;
+}
+
+.wrapper form .pass a
+{
+    color: #087e1b;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.wrapper form .button input
+{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0;
+    background: #087e1b;
+}
+
+.wrapper form .signup
+{
+    text-align: center;
+    font-size: 18px;
+    margin-top: 18px;
+}
+
+.wrapper form .signup a
+{
+    color: #087e1b;
+    text-decoration: none;
+}
